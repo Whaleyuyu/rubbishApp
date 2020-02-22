@@ -7,6 +7,8 @@
     android:orientation="vertical"
     >
 
+    <!--可回收物的展开列表-->
+
     <ImageButton
         android:id="@+id/imageButton1"
         android:layout_width="wrap_content"
@@ -27,12 +29,18 @@
         android:layout_marginBottom="10dp"
         app:cardCornerRadius="5dp">
 
+        <ImageView
+            android:background="@mipmap/dingding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
         <TextView
             android:id="@+id/info_text_one"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="可回收垃圾"
+            android:gravity="center|right"
+            android:layout_marginRight="40dp"
+            android:text="可回收物"
             app:cardElevation="55dp"
             android:textSize="36sp"
             tools:ignore="MissingPrefix" />

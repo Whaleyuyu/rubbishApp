@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.pyz.viewpagerdemo">
+          package="com.wxw.rubbishApp">
 
     <application
         android:allowBackup="true"
@@ -8,22 +8,32 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomeActivity">
+    <provider android:name="com.wxw.rubbishApp.provider.RubbishProvider"
+        android:authorities="com.wxw.rubbishApp.provider.RUBBISH" />
+    <provider android:name="com.wxw.rubbishApp.provider.VersionProvider"
+        android:authorities="com.wxw.rubbishApp.provider.VERSION" />
+        <activity android:name="com.wxw.rubbishApp.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".StartActivity">
+        <activity android:name="com.wxw.rubbishApp.MainActivity"/>
+        <activity android:name="com.wxw.rubbishApp.StartActivity">
         </activity>
-        <activity android:name=".list.list1">
+        <activity android:name="com.wxw.rubbishApp.list.list1">
+        </activity>
+        <activity android:name="com.wxw.rubbishApp.list.list2">
+        </activity>
+        <activity android:name="com.wxw.rubbishApp.list.list3">
+        </activity>
+        <activity android:name="com.wxw.rubbishApp.list.list4">
         </activity>
     </application>
     <!--用来适配全面屏的-->
     <!--<meta-data android:name="android.max_aspect" android:value="2.2" />-->
 
 
-
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>

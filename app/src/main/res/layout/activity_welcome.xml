@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/mgarbage"
-    tools:context="com.pyz.viewpagerdemo.WelcomeActivity">
+    tools:context="com.wxw.rubbishApp.WelcomeActivity">
 
     <TextView
         android:layout_gravity="bottom"

@@ -4,14 +4,14 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-<com.pyz.viewpagerdemo.ui.CarouselViewPager
+<com.wxw.rubbishApp.ui.CarouselViewPager
     android:id="@+id/mCarouselView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="30dp"
     android:layout_marginTop="40dp">
 
-</com.pyz.viewpagerdemo.ui.CarouselViewPager>
+</com.wxw.rubbishApp.ui.CarouselViewPager>
 
     <LinearLayout
         android:id="@+id/pointLayout"

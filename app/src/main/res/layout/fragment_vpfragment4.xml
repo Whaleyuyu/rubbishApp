@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:clipToPadding="true"
-    tools:context="com.pyz.viewpagerdemo.fragment.VPFragment4">
+    tools:context="com.wxw.rubbishApp.fragment.VPFragment4">
 
     <!-- TODO: Update blank fragment layout -->
     <ImageButton
